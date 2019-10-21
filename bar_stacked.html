@@ -1,0 +1,84 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-1.3.4.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="4fc1574a-66b7-4faf-b561-1e25151109da" data-root-id="237494"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="241654">
+          {"0f139ea2-52e0-4cd7-b503-f72e1c7931a7":{"roots":{"references":[{"attributes":{"below":[{"id":"237505","type":"CategoricalAxis"}],"center":[{"id":"237508","type":"Grid"},{"id":"237513","type":"Grid"},{"id":"237534","type":"Legend"}],"left":[{"id":"237509","type":"LinearAxis"}],"outline_line_color":{"value":null},"plot_height":500,"renderers":[{"id":"237527","type":"GlyphRenderer"},{"id":"237540","type":"GlyphRenderer"},{"id":"237554","type":"GlyphRenderer"},{"id":"237576","type":"GlyphRenderer"},{"id":"237593","type":"GlyphRenderer"},{"id":"237612","type":"GlyphRenderer"}],"title":{"id":"237495","type":"Title"},"toolbar":{"id":"237515","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"237497","type":"FactorRange"},"x_scale":{"id":"237501","type":"CategoricalScale"},"y_range":{"id":"237499","type":"DataRange1d"},"y_scale":{"id":"237503","type":"LinearScale"}},"id":"237494","subtype":"Figure","type":"Plot"},{"attributes":{"bottom":{"expr":{"id":"237566","type":"Stack"}},"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"237567","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237574","type":"VBar"},{"attributes":{"fields":["fridge"]},"id":"237518","type":"Stack"},{"attributes":{"data_source":{"id":"237536","type":"ColumnDataSource"},"glyph":{"id":"237538","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"light","nonselection_glyph":{"id":"237539","type":"VBar"},"selection_glyph":null,"view":{"id":"237541","type":"CDSView"}},"id":"237540","type":"GlyphRenderer"},{"attributes":{"source":{"id":"237589","type":"ColumnDataSource"}},"id":"237594","type":"CDSView"},{"attributes":{},"id":"237533","type":"BasicTickFormatter"},{"attributes":{"dimension":1,"ticker":{"id":"237510","type":"BasicTicker"}},"id":"237513","type":"Grid"},{"attributes":{"fields":["fridge","light"]},"id":"237570","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"237519","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237520","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237539","type":"VBar"},{"attributes":{},"id":"237606","type":"Selection"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"237514","type":"HoverTool"}]},"id":"237515","type":"Toolbar"},{"attributes":{},"id":"237547","type":"Selection"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"237606","type":"Selection"},"selection_policy":{"id":"237607","type":"UnionRenderers"}},"id":"237572","type":"ColumnDataSource"},{"attributes":{},"id":"237607","type":"UnionRenderers"},{"attributes":{"callback":null,"tooltips":"$name @buildings_x: @$name"},"id":"237514","type":"HoverTool"},{"attributes":{"source":{"id":"237536","type":"ColumnDataSource"}},"id":"237541","type":"CDSView"},{"attributes":{"fields":["fridge","light","microwave"]},"id":"237571","type":"Stack"},{"attributes":{"label":{"value":"microwave"},"renderers":[{"id":"237554","type":"GlyphRenderer"},{"id":"237612","type":"GlyphRenderer"}]},"id":"237565","type":"LegendItem"},{"attributes":{"bottom":{"expr":{"id":"237521","type":"Stack"}},"fill_color":{"value":"#e84d60"},"line_color":{"value":"#e84d60"},"top":{"expr":{"id":"237522","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237552","type":"VBar"},{"attributes":{},"id":"237531","type":"CategoricalTickFormatter"},{"attributes":{"callback":null},"id":"237499","type":"DataRange1d"},{"attributes":{"bottom":{"expr":{"id":"237517","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237518","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237526","type":"VBar"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"241397","type":"Selection"},"selection_policy":{"id":"241398","type":"UnionRenderers"}},"id":"237608","type":"ColumnDataSource"},{"attributes":{"items":[{"id":"237535","type":"LegendItem"},{"id":"237549","type":"LegendItem"},{"id":"237565","type":"LegendItem"}],"orientation":"horizontal"},"id":"237534","type":"Legend"},{"attributes":{},"id":"237548","type":"UnionRenderers"},{"attributes":{"fields":["fridge","light"]},"id":"237569","type":"Stack"},{"attributes":{"fields":[]},"id":"237517","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"237570","type":"Stack"}},"fill_color":{"value":"#e84d60"},"line_color":{"value":"#e84d60"},"top":{"expr":{"id":"237571","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237610","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"237519","type":"Stack"}},"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"237520","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237538","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"237570","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237571","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237611","type":"VBar"},{"attributes":{"fields":[]},"id":"237566","type":"Stack"},{"attributes":{"label":{"value":"light"},"renderers":[{"id":"237540","type":"GlyphRenderer"},{"id":"237593","type":"GlyphRenderer"}]},"id":"237549","type":"LegendItem"},{"attributes":{"fields":["fridge","light"]},"id":"237520","type":"Stack"},{"attributes":{"data_source":{"id":"237608","type":"ColumnDataSource"},"glyph":{"id":"237610","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"microwave","nonselection_glyph":{"id":"237611","type":"VBar"},"selection_glyph":null,"view":{"id":"237613","type":"CDSView"}},"id":"237612","type":"GlyphRenderer"},{"attributes":{"fields":["fridge","light"]},"id":"237521","type":"Stack"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"237587","type":"Selection"},"selection_policy":{"id":"237588","type":"UnionRenderers"}},"id":"237550","type":"ColumnDataSource"},{"attributes":{"source":{"id":"237608","type":"ColumnDataSource"}},"id":"237613","type":"CDSView"},{"attributes":{"data_source":{"id":"237523","type":"ColumnDataSource"},"glyph":{"id":"237525","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"fridge","nonselection_glyph":{"id":"237526","type":"VBar"},"selection_glyph":null,"view":{"id":"237528","type":"CDSView"}},"id":"237527","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"237566","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237567","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237575","type":"VBar"},{"attributes":{"bottom":{"expr":{"id":"237568","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237569","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237592","type":"VBar"},{"attributes":{"fields":["fridge"]},"id":"237519","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"237521","type":"Stack"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"237522","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237553","type":"VBar"},{"attributes":{},"id":"237563","type":"Selection"},{"attributes":{"source":{"id":"237523","type":"ColumnDataSource"}},"id":"237528","type":"CDSView"},{"attributes":{"fields":["fridge","light","microwave"]},"id":"237522","type":"Stack"},{"attributes":{"formatter":{"id":"237531","type":"CategoricalTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"237506","type":"CategoricalTicker"}},"id":"237505","type":"CategoricalAxis"},{"attributes":{},"id":"237564","type":"UnionRenderers"},{"attributes":{},"id":"237587","type":"Selection"},{"attributes":{"source":{"id":"237550","type":"ColumnDataSource"}},"id":"237555","type":"CDSView"},{"attributes":{"data_source":{"id":"237589","type":"ColumnDataSource"},"glyph":{"id":"237591","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"light","nonselection_glyph":{"id":"237592","type":"VBar"},"selection_glyph":null,"view":{"id":"237594","type":"CDSView"}},"id":"237593","type":"GlyphRenderer"},{"attributes":{"data_source":{"id":"237550","type":"ColumnDataSource"},"glyph":{"id":"237552","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"microwave","nonselection_glyph":{"id":"237553","type":"VBar"},"selection_glyph":null,"view":{"id":"237555","type":"CDSView"}},"id":"237554","type":"GlyphRenderer"},{"attributes":{"label":{"value":"fridge"},"renderers":[{"id":"237527","type":"GlyphRenderer"},{"id":"237576","type":"GlyphRenderer"}]},"id":"237535","type":"LegendItem"},{"attributes":{},"id":"237588","type":"UnionRenderers"},{"attributes":{"text":"buildings fraction per meter"},"id":"237495","type":"Title"},{"attributes":{"bottom":{"expr":{"id":"237568","type":"Stack"}},"fill_color":{"value":"#718dbf"},"line_color":{"value":"#718dbf"},"top":{"expr":{"id":"237569","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237591","type":"VBar"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"237547","type":"Selection"},"selection_policy":{"id":"237548","type":"UnionRenderers"}},"id":"237523","type":"ColumnDataSource"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"237627","type":"Selection"},"selection_policy":{"id":"237628","type":"UnionRenderers"}},"id":"237589","type":"ColumnDataSource"},{"attributes":{"bottom":{"expr":{"id":"237517","type":"Stack"}},"fill_color":{"value":"#c9d9d3"},"line_color":{"value":"#c9d9d3"},"top":{"expr":{"id":"237518","type":"Stack"}},"width":{"value":0.9},"x":{"field":"buildings_x"}},"id":"237525","type":"VBar"},{"attributes":{"callback":null,"factors":["building1","building2","building3","building4","building5","building6"]},"id":"237497","type":"FactorRange"},{"attributes":{},"id":"237501","type":"CategoricalScale"},{"attributes":{},"id":"237510","type":"BasicTicker"},{"attributes":{"grid_line_color":null,"ticker":{"id":"237506","type":"CategoricalTicker"}},"id":"237508","type":"Grid"},{"attributes":{"fields":["fridge"]},"id":"237567","type":"Stack"},{"attributes":{"data_source":{"id":"237572","type":"ColumnDataSource"},"glyph":{"id":"237574","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"name":"fridge","nonselection_glyph":{"id":"237575","type":"VBar"},"selection_glyph":null,"view":{"id":"237577","type":"CDSView"}},"id":"237576","type":"GlyphRenderer"},{"attributes":{"callback":null,"data":{"buildings_x":["building1","building2","building3","building4","building5","building6"],"fridge":[2,1,4,3,2,4],"light":[5,3,4,2,4,6],"microwave":[3,2,4,4,5,3]},"selected":{"id":"237563","type":"Selection"},"selection_policy":{"id":"237564","type":"UnionRenderers"}},"id":"237536","type":"ColumnDataSource"},{"attributes":{},"id":"237506","type":"CategoricalTicker"},{"attributes":{"formatter":{"id":"237533","type":"BasicTickFormatter"},"minor_tick_line_color":{"value":null},"ticker":{"id":"237510","type":"BasicTicker"}},"id":"237509","type":"LinearAxis"},{"attributes":{},"id":"237628","type":"UnionRenderers"},{"attributes":{},"id":"237503","type":"LinearScale"},{"attributes":{"source":{"id":"237572","type":"ColumnDataSource"}},"id":"237577","type":"CDSView"},{"attributes":{"fields":["fridge"]},"id":"237568","type":"Stack"},{"attributes":{},"id":"237627","type":"Selection"},{"attributes":{},"id":"241397","type":"Selection"},{"attributes":{},"id":"241398","type":"UnionRenderers"}],"root_ids":["237494"]},"title":"Bokeh Application","version":"1.3.4"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('241654').textContent;
+                  var render_items = [{"docid":"0f139ea2-52e0-4cd7-b503-f72e1c7931a7","roots":{"237494":"4fc1574a-66b7-4faf-b561-1e25151109da"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
