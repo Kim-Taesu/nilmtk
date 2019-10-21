@@ -1,3 +1,19 @@
+
+
+ **Energy × Security Hackathon 공모전 준비**
+
+
+
+[시각화 변형 및 코드 이해 파일](nilmtk_kts.ipynb)
+
+[시각화 결과물 폴더](html)
+
+
+
+----
+
+
+
 [![Build Status](https://travis-ci.org/nilmtk/nilmtk.svg?branch=master)](https://travis-ci.org/nilmtk/nilmtk) [![Install with conda](https://anaconda.org/nilmtk/nilmtk/badges/installer/conda.svg)](https://anaconda.org/nilmtk/nilmtk) [![conda package version](https://anaconda.org/nilmtk/nilmtk/badges/version.svg)](https://anaconda.org/nilmtk/nilmtk)
 
 # NILMTK: Non-Intrusive Load Monitoring Toolkit
